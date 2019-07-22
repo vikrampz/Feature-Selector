@@ -3,7 +3,7 @@
 ### Why Feature Selection is important ?
 
 ```
-1. Feature Selection is best weapon to minize Curse of Dimensionality.It is necessary to reduce the number of features considerably to boost the model’s performance and to arrive at an optimal solution for the model
+1.  Minimize Curse of Dimensionality: It is best weapon to reduce the number of features considerably to boost the model’s performance and to arrive at an optimal solution for the model
 
 2. Reduces Computation and Training Time: Less data means that algorithms train faster.
 
@@ -24,9 +24,20 @@ As the name suggests, this algorithm eliminates worst performing features in eac
 ![alt text](https://github.com/vikrampz/Feature-Selector/blob/master/Backward_Elimination.JPG)
 
 
-Feature ranking with recursive feature elimination and cross-validated selection of the best number of features.
+Feature ranking with recursive feature elimination and cross-validated selection also finds optimal number of features.
+
+Example : Simple visualization for RFE with cross validation score of determine optimal number of features.
+
+![alt text](https://github.com/vikrampz/Feature-Selector/blob/master/RFECV.JPG)
 
 
 ### 2.Basic Feature Selection
 This Plugin allows users to perform  Featrue Selection based on missing vaues handling,correlation analysis and columns uniques level checks
 
+It Implements different methods to identify features reductant features
+
+1. Percentages Missing Values
+
+2. Collinear variables with a correlation greater than a specified correlation coefficient
+
+3.Uniquess
