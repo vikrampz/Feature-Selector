@@ -2,13 +2,13 @@
 
 ### Why Feature Selection is important ?
 
-```
+
 1.  Minimize Curse of Dimensionality: It is best weapon to reduce the number of features considerably to boost the model’s performance and to arrive at an optimal solution for the model
 
 2. Reduces Computation and Training Time: Less data means that algorithms train faster.
 
 3. Reduces Overfitting: Less redundant data means less opportunity to make decisions based on noise.
-```
+
 
 ### Plugin Modules
 
