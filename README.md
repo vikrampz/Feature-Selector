@@ -34,10 +34,14 @@ Example : Simple visualization for RFE with cross validation score of determine 
 ### 2.Basic Feature Selection
 This Plugin allows users to perform  Featrue Selection based on missing vaues handling,correlation analysis and columns uniques level checks
 
-It Implements different methods to identify features reductant features
+It Implements different methods to identify features features
 
-1. Percentages Missing Values
+1. Features with a high percentage of missing values: This module identify features with a fraction of missing values above a specified threshold .
 
-2. Collinear variables with a correlation greater than a specified correlation coefficient
+![alt text](https://github.com/vikrampz/Feature-Selector/blob/master/missing_values.JPG)
 
-3.Uniquess
+2. Collinear (highly correlated) features : This module identify collinear features are highly correlated with one another based on a specified correlation coefficient value. Correlation leads to  due to high variance and less model interpretability
+
+![alt text](https://github.com/vikrampz/Feature-Selector/blob/master/Correlation.JPG)
+
+3. Features with a single unique value : This module identify any columns that have a single unique value. A feature with only one unique value cannot be useful for machine learning because this feature has zero variance. 
