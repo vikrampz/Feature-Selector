@@ -13,7 +13,7 @@
 
 ### 1. Advanced Feature Selection
 
-This Plugin allows users to perform Featrue Selection using based on the self selected-algorithm and validation method using Recursive feature elimination with cross validation
+This Plugin allows users to perform Featrue Selection using based on the self selected-algorithm and validation method using Recursive feature elimination with cross validation and Ridge Regularization
 
 
 #### Recursive feature elimination with cross validation
@@ -29,6 +29,11 @@ Example : Simple visualization for RFE with cross validation score of determine 
 
 ![alt text](https://github.com/vikrampz/Feature-Selector/blob/master/RFECV.JPG)
 
+#### Ridge Regularization
+
+Regularization in general makes your model to generalize better and adds a penalty to the different parameters of the machine learning model to reduce the freedom of the model and in other words to avoid overfitting
+
+Ridge Regularization adds penalty to non important features of model of function of square of coefficients of parameters and helps to selecting important features. 
 
 ### 2.Basic Feature Selection
 This Plugin allows users to perform  Featrue Selection based on missing vaues handling,correlation analysis and columns uniques level checks
