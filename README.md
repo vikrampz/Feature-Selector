@@ -33,7 +33,7 @@ Example : Simple visualization for RFE with cross validation score of determine 
 
 Regularization in general makes your model to generalize better and adds a penalty to the different parameters of the machine learning model to reduce the freedom of the model and in other words to avoid overfitting
 
-Ridge Regularization adds penalty to non important features of model of function of square of coefficients of parameters and helps to selecting important features. 
+Ridge Regularization adds penalty to non important features of model of function of square of coefficients of parameters and helps in selecting important features. 
 
 ### 2.Basic Feature Selection
 This Plugin allows users to perform  Featrue Selection based on missing vaues handling,correlation analysis and columns uniques level checks
