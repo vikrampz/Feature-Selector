@@ -11,7 +11,7 @@
 
 ### Plugin Modules
 
-### 1.Basic Feature Selection
+### 1.Basic Module
 This Plugin allows users to perform  Featrue Selection based on missing vaues handling,correlation analysis and columns uniques level checks
 
 It Implements different methods to identify features features
@@ -26,8 +26,21 @@ It Implements different methods to identify features features
 
 3. Features with a single unique value : This module identify any columns that have a single unique value. A feature with only one unique value cannot be useful for machine learning because this feature has zero variance. 
 
+### 2. Intermediate Module
+This Plugin allows users to perform Anomaly detection (or outlier detection) ie identification rare observations or events using Zscore.
 
-### 2. Advanced Feature Selection
+#### What are Z Score ?
+The z-score  of an observation is a metric that indicates how many standard deviations a data point is from the sample’s mean
+
+![alt text](https://github.com/vikrampz/Feature-Selector/blob/master/Images/Zscore.JPG)
+
+![alt text](https://github.com/vikrampz/Feature-Selector/blob/master/Images/Zscore%20Graph.JPG)
+
+#### 
+
+
+
+### 3. Advanced Module
 
 This Plugin allows users to perform Featrue Selection using based on the self selected-algorithm and validation method using Recursive feature elimination with cross validation and Ridge Regularization
 
