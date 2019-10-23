@@ -56,9 +56,6 @@ As the name suggests, this algorithm eliminates worst performing features in eac
 
 Feature ranking with recursive feature elimination and cross-validated selection also finds optimal number of features.
 
-Example : Simple visualization for RFE with cross validation score of determine optimal number of features.
-
-![alt text](https://github.com/vikrampz/Feature-Selector/blob/master/RFECV.JPG)
 
 #### Ridge Regularization
 
