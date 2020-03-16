@@ -1,20 +1,19 @@
-## Feature-Selector Plugin
+## Objective:
 
-### Why Feature Selection is important ?
+Use this tool to find which columns to KEEP or DROP as you head into the AI modeling stage of your project.
+Drop columns based on missing vaues and correlation analysis to save on processing time and to further clean your data.
 
-1. Reduces Computation and Training Time: Less data means that algorithms train faster.
 
-2. Increases ML Model Interpretability: ML model intrepetively will improve with reduction in complexity of of algorithm.
-Less redundant data means less opportunity to make decisions based on noise. 
+## Advantages:
 
-3. Imporoves Accuracy: Feature Selection is best weapon to reduce the number of features considerably to boost the model’s performance and to arrive at an optimal solution for the model
+1.Increases machine learinig model interpretability
 
- 
+2.Reduces computation and training time by Less data means that algorithms train faster.
 
-### Plugin Modules
 
-### 1.Basic Module
-This Plugin allows users to perform  Featrue Selection based on missing vaues handling,correlation analysis and columns uniques level checks
+## Description 
+
+This tools allows users to perform Featrue Selection based on missing vaues handling,correlation analysis and columns uniques level checks
 
 It Implements different methods to identify features features
 
